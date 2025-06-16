@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to Vansh Jaiswal's Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #222, #444);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .greeting-box {
+      background-color: #111;
+      border: 2px solid #00ff99;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 20px #00ff99aa;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .greeting-box h1 {
+      font-size: 28px;
+      color: #00ff99;
+    }
+
+    .greeting-box p {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="greeting-box">
+    <h1>👋 Welcome!</h1>
+    <p>Glad to see you here at <strong>VanshJaiswal.me</strong> 😄</p>
+  </div>
+
+  <script>
+    // You can customize more logic here later
+    console.log("Greeting loaded!");
+  </script>
+</body>
+</html>
